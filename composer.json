@@ -1,0 +1,23 @@
+{
+    "name": "ayesh/wordpress-comment-form-csrf",
+    "description": "Prevent Cross-Site Request Forgery attacks on your comments form.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ayesh Karunaratne",
+            "email": "ayesh@aye.sh",
+            "homepage": "https://aye.sh"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "support": {
+        "issues": "https://wordpress.org/support/plugin/comment-form-csrf-protection/"
+    },
+    "homepage": "https://wordpress.org/plugins/comment-form-csrf-protection",
+    "autoload": {
+        "files": ["comment-form-csrf-protection.php"]
+    }
+}
